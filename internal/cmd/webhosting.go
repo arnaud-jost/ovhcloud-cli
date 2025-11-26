@@ -1,10 +1,15 @@
 // SPDX-FileCopyrightText: 2025 OVH SAS <opensource@ovh.net>
 //
 // SPDX-License-Identifier: Apache-2.0
+// Crafted with Codex
 
 package cmd
 
 import (
+	"fmt"
+	"strings"
+
+	"github.com/ovh/ovhcloud-cli/internal/services/common"
 	"github.com/ovh/ovhcloud-cli/internal/services/webhosting"
 	"github.com/spf13/cobra"
 )
@@ -39,9 +44,7 @@ func init() {
 		Args:  cobra.ExactArgs(1),
 		Run:   webhosting.EditWebHosting,
 	}
-	webhostingEditCmd.Flags().StringVar(&webhosting.WebHostingSpec.DisplayName, "display-name", "", "Display name of the WebHosting")
+	webhostingEditCmd.Flags().StringVar(&webhosting.WebHostingDisplayName, "display-name", "", "Display name of the WebHosting")
+	webhostingEditCmd.Flags().BoolVar(&webhosting.WebHostingClearDisplayName, "clear-display-name", false, "Clear the display name (set default value)")
 	addInteractiveEditorFlag(webhostingEditCmd)
 	webhostingCmd.AddCommand(webhostingEditCmd)
-
-	rootCmd.AddCommand(webhostingCmd)
-}
