@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting website deployment get
 
-Retrieve information of a specific WebHosting
+Get a deployment
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting website deployment get <service_name> <id> <deployment_id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting website deployment](ovhcloud_webhosting_website_deployment.md)	 - Manage website deployments

@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting offer
 
-Retrieve information of a specific WebHosting
+Inspect hosting offers
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting offer [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for offer
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,5 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting offer capabilities](ovhcloud_webhosting_offer_capabilities.md)	 - Get offer capabilities
+* [ovhcloud webhosting offer vcs-supported](ovhcloud_webhosting_offer_vcs-supported.md)	 - List supported VCS platforms

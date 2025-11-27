@@ -1,15 +1,21 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting runtime update
 
-Retrieve information of a specific WebHosting
+Update a runtime
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting runtime update <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --app-bootstrap string   Application bootstrap script
+      --app-env string         Application environment
+      --editor                 Use a text editor to define parameters
+  -h, --help                   help for update
+      --name string            Runtime name
+      --public-dir string      Public directory
+      --runtime-default        Set as default runtime
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +38,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting runtime](ovhcloud_webhosting_runtime.md)	 - Manage runtimes

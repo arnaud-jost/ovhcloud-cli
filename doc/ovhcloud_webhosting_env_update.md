@@ -1,15 +1,18 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting env update
 
-Retrieve information of a specific WebHosting
+Update an env var
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting env update <service_name> <key> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --editor         Use a text editor to define parameters
+  -h, --help           help for update
+      --type string    Variable type (allowed: integer, password, string)
+      --value string   Variable value
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +35,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting env](ovhcloud_webhosting_env.md)	 - Manage environment variables

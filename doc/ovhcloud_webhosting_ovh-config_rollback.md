@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ovh-config rollback
 
-Retrieve information of a specific WebHosting
+Rollback a .ovhconfig entry
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ovh-config rollback <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help              help for rollback
+      --rollback-id int   Configuration ID to rollback to
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ovh-config](ovhcloud_webhosting_ovh-config.md)	 - Manage .ovhconfig settings

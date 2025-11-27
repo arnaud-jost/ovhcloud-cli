@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting website deployment logs
 
-Retrieve information of a specific WebHosting
+Get deployment logs
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting website deployment logs <service_name> <id> <deployment_id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for logs
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting website deployment](ovhcloud_webhosting_website_deployment.md)	 - Manage website deployments

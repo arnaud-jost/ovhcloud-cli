@@ -1,15 +1,18 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting restore-snapshot
 
-Retrieve information of a specific WebHosting
+Restore a snapshot
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting restore-snapshot <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --backup string      Backup to restore (allowed: daily.1, daily.2, daily.3, weekly.1, weekly.2)
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for restore-snapshot
 ```
 
 ### Options inherited from parent commands

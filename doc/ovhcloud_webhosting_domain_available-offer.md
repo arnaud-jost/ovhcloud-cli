@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting domain available-offer
 
-Retrieve information of a specific WebHosting
+List hosting offers available for a domain
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting domain available-offer <domain> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for available-offer
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting domain](ovhcloud_webhosting_domain.md)	 - Manage attached domains

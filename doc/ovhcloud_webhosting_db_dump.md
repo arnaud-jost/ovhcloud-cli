@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db dump
 
-Retrieve information of a specific WebHosting
+Manage database dumps
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db dump [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for dump
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,9 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db](ovhcloud_webhosting_db.md)	 - Manage databases
+* [ovhcloud webhosting db dump create](ovhcloud_webhosting_db_dump_create.md)	 - Request a database dump
+* [ovhcloud webhosting db dump delete](ovhcloud_webhosting_db_dump_delete.md)	 - Delete a database dump
+* [ovhcloud webhosting db dump get](ovhcloud_webhosting_db_dump_get.md)	 - Get a database dump
+* [ovhcloud webhosting db dump list](ovhcloud_webhosting_db_dump_list.md)	 - List database dumps
+* [ovhcloud webhosting db dump restore](ovhcloud_webhosting_db_dump_restore.md)	 - Restore from a dump

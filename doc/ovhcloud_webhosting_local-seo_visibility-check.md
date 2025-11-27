@@ -1,15 +1,21 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo visibility-check
 
-Retrieve information of a specific WebHosting
+Launch a Local SEO visibility check
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo visibility-check [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --country string     Country of the location (see API documentation for allowed values)
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for visibility-check
+      --name string        Name of the location
+      --street string      Street of the location
+      --zip string         Zip code of the location
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +38,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo](ovhcloud_webhosting_local-seo.md)	 - Manage Local SEO features

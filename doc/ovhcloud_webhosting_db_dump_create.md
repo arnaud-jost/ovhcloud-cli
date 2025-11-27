@@ -1,15 +1,19 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db dump create
 
-Retrieve information of a specific WebHosting
+Request a database dump
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db dump create <service_name> <name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --date string        Dump type (allowed: daily.1, now, weekly.1)
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for create
+      --send-email         Send email when dump is ready (default true)
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +36,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db dump](ovhcloud_webhosting_db_dump.md)	 - Manage database dumps

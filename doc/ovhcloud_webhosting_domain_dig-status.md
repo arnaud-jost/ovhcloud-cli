@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting domain dig-status
 
-Retrieve information of a specific WebHosting
+Check DNS status for an attached domain
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting domain dig-status <service_name> <domain> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for dig-status
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting domain](ovhcloud_webhosting_domain.md)	 - Manage attached domains

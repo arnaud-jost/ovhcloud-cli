@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting env
 
-Retrieve information of a specific WebHosting
+Manage environment variables
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting env [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for env
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,8 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting env create](ovhcloud_webhosting_env_create.md)	 - Create an env var
+* [ovhcloud webhosting env delete](ovhcloud_webhosting_env_delete.md)	 - Delete an env var
+* [ovhcloud webhosting env get](ovhcloud_webhosting_env_get.md)	 - Get an env var
+* [ovhcloud webhosting env list](ovhcloud_webhosting_env_list.md)	 - List env vars
+* [ovhcloud webhosting env update](ovhcloud_webhosting_env_update.md)	 - Update an env var

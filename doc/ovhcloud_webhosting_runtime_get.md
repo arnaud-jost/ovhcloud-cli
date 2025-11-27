@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting runtime get
 
-Retrieve information of a specific WebHosting
+Get a runtime
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting runtime get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting runtime](ovhcloud_webhosting_runtime.md)	 - Manage runtimes

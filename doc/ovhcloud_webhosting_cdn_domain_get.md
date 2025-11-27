@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cdn domain get
 
-Retrieve information of a specific WebHosting
+Get a CDN domain
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cdn domain get <service_name> <domain> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cdn domain](ovhcloud_webhosting_cdn_domain.md)	 - Manage CDN domains

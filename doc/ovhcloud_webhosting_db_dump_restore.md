@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db dump restore
 
-Retrieve information of a specific WebHosting
+Restore from a dump
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db dump restore <service_name> <name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for restore
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db dump](ovhcloud_webhosting_db_dump.md)	 - Manage database dumps

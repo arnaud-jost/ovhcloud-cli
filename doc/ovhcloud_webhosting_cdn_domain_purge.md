@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cdn domain purge
 
-Retrieve information of a specific WebHosting
+Purge CDN domain cache
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cdn domain purge <service_name> <domain> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for purge
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cdn domain](ovhcloud_webhosting_cdn_domain.md)	 - Manage CDN domains

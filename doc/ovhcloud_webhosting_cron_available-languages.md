@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cron available-languages
 
-Retrieve information of a specific WebHosting
+List available cron languages
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cron available-languages <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for available-languages
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cron](ovhcloud_webhosting_cron.md)	 - Manage cron tasks

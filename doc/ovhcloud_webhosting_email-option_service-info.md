@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting email-option service-info
 
-Retrieve information of a specific WebHosting
+Get email option service info
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting email-option service-info <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for service-info
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting email-option](ovhcloud_webhosting_email-option.md)	 - Manage email options

@@ -1,15 +1,23 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cdn domain statistics
 
-Retrieve information of a specific WebHosting
+Get CDN domain statistics
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cdn domain statistics <service_name> <domain> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --filter stringArray   Filter results by any property using https://github.com/PaesslerAG/gval syntax
+                             Examples:
+                               --filter 'state="running"'
+                               --filter 'name=~"^my.*"'
+                               --filter 'nested.property.subproperty>10'
+                               --filter 'startDate>="2023-12-01"'
+                               --filter 'name=~"something" && nbField>10'
+  -h, --help                 help for statistics
+      --period string        Statistics period (default day)
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +40,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cdn domain](ovhcloud_webhosting_cdn_domain.md)	 - Manage CDN domains

@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting env delete
 
-Retrieve information of a specific WebHosting
+Delete an env var
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting env delete <service_name> <key> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for delete
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting env](ovhcloud_webhosting_env.md)	 - Manage environment variables

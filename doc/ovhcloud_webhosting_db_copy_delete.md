@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db copy delete
 
-Retrieve information of a specific WebHosting
+Delete a database copy
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db copy delete <service_name> <name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for delete
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db copy](ovhcloud_webhosting_db_copy.md)	 - Manage database copies

@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting vcs
 
-Retrieve information of a specific WebHosting
+Manage VCS integrations
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting vcs [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for vcs
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,4 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting vcs webhooks](ovhcloud_webhosting_vcs_webhooks.md)	 - Retrieve webhook URLs to configure on your VCS provider (supported platforms: github).

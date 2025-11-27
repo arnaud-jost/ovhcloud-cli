@@ -1,15 +1,22 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ovh-config change
 
-Retrieve information of a specific WebHosting
+Change a .ovhconfig entry
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ovh-config change <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --container string        Container image
+      --editor                  Use a text editor to define parameters
+      --engine-name string      Engine name
+      --engine-version string   Engine version
+      --environment string      Environment (production, development, ...)
+      --from-file string        File containing parameters
+  -h, --help                    help for change
+      --http-firewall string    HTTP firewall mode (none, security, ...)
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +39,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ovh-config](ovhcloud_webhosting_ovh-config.md)	 - Manage .ovhconfig settings

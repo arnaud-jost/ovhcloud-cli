@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting website creation-capabilities
 
-Retrieve information of a specific WebHosting
+Show website creation capabilities
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting website creation-capabilities <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for creation-capabilities
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting website](ovhcloud_webhosting_website.md)	 - Manage websites deployments

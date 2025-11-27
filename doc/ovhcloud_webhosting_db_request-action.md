@@ -1,15 +1,18 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db request-action
 
-Retrieve information of a specific WebHosting
+Request an action on a database
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db request-action <service_name> <name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --action string      Action to request (allowed: CHECK_QUOTA)
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for request-action
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +35,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db](ovhcloud_webhosting_db.md)	 - Manage databases

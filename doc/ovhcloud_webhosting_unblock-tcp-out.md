@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting unblock-tcp-out
 
-Retrieve information of a specific WebHosting
+Request a reset of outgoing TCP restrictions applied to your hosting service.
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting unblock-tcp-out <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for unblock-tcp-out
 ```
 
 ### Options inherited from parent commands

@@ -1,15 +1,21 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cron update
 
-Retrieve information of a specific WebHosting
+Update a cron task
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cron update <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --command string       Command to execute
+      --description string   Description
+      --editor               Use a text editor to define parameters
+      --email string         Email for stderr
+      --frequency string     Frequency (crontab format)
+  -h, --help                 help for update
+      --language string      Language
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +38,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cron](ovhcloud_webhosting_cron.md)	 - Manage cron tasks

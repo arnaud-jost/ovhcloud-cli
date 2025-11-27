@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting website
 
-Retrieve information of a specific WebHosting
+Manage websites deployments
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting website [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for website
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,11 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting website create](ovhcloud_webhosting_website_create.md)	 - Create a website
+* [ovhcloud webhosting website creation-capabilities](ovhcloud_webhosting_website_creation-capabilities.md)	 - Show website creation capabilities
+* [ovhcloud webhosting website delete](ovhcloud_webhosting_website_delete.md)	 - Delete a website
+* [ovhcloud webhosting website deploy](ovhcloud_webhosting_website_deploy.md)	 - Trigger a deployment
+* [ovhcloud webhosting website deployment](ovhcloud_webhosting_website_deployment.md)	 - Manage website deployments
+* [ovhcloud webhosting website get](ovhcloud_webhosting_website_get.md)	 - Get a website
+* [ovhcloud webhosting website list](ovhcloud_webhosting_website_list.md)	 - List websites
+* [ovhcloud webhosting website update](ovhcloud_webhosting_website_update.md)	 - Update a website

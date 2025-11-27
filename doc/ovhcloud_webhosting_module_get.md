@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting module get
 
-Retrieve information of a specific WebHosting
+Get a module
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting module get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting module](ovhcloud_webhosting_module.md)	 - Manage one-click modules

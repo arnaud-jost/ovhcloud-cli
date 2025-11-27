@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ssh-key get
 
-Retrieve information of a specific WebHosting
+Get the SSH public key
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ssh-key get <service_name> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ssh-key](ovhcloud_webhosting_ssh-key.md)	 - Manage SSH keys

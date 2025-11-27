@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db change-password
 
-Retrieve information of a specific WebHosting
+Change database password
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db change-password <service_name> <name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help              help for change-password
+      --password string   New password
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db](ovhcloud_webhosting_db.md)	 - Manage databases

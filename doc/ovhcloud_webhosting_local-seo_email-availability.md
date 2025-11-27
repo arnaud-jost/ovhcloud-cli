@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo email-availability
 
-Retrieve information of a specific WebHosting
+Check if an email can be used for Local SEO
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo email-availability [service_name] [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --email string   Email to test for availability
+  -h, --help           help for email-availability
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo](ovhcloud_webhosting_local-seo.md)	 - Manage Local SEO features

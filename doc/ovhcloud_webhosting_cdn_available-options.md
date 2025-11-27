@@ -1,15 +1,22 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cdn available-options
 
-Retrieve information of a specific WebHosting
+List available CDN options
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cdn available-options <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --filter stringArray   Filter results by any property using https://github.com/PaesslerAG/gval syntax
+                             Examples:
+                               --filter 'state="running"'
+                               --filter 'name=~"^my.*"'
+                               --filter 'nested.property.subproperty>10'
+                               --filter 'startDate>="2023-12-01"'
+                               --filter 'name=~"something" && nbField>10'
+  -h, --help                 help for available-options
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +39,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cdn](ovhcloud_webhosting_cdn.md)	 - Manage CDN

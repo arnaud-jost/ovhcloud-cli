@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting api
 
-Retrieve information of a specific WebHosting
+Generic webhosting API access
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting api [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for api
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,4 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting api call](ovhcloud_webhosting_api_call.md)	 - Call any webhosting API path

@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo account get
 
-Retrieve information of a specific WebHosting
+Get a Local SEO account
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo account get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo account](ovhcloud_webhosting_local-seo_account.md)	 - Manage Local SEO accounts

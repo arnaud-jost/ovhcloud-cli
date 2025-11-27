@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting website delete
 
-Retrieve information of a specific WebHosting
+Delete a website
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting website delete <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --delete-files   Also delete files in the website path
+  -h, --help           help for delete
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting website](ovhcloud_webhosting_website.md)	 - Manage websites deployments

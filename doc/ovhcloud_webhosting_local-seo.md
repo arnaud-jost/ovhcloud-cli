@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo
 
-Retrieve information of a specific WebHosting
+Manage Local SEO features
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for local-seo
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,9 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo account](ovhcloud_webhosting_local-seo_account.md)	 - Manage Local SEO accounts
+* [ovhcloud webhosting local-seo directories](ovhcloud_webhosting_local-seo_directories.md)	 - List directories available for a country and offer
+* [ovhcloud webhosting local-seo email-availability](ovhcloud_webhosting_local-seo_email-availability.md)	 - Check if an email can be used for Local SEO
+* [ovhcloud webhosting local-seo location](ovhcloud_webhosting_local-seo_location.md)	 - Manage Local SEO locations
+* [ovhcloud webhosting local-seo visibility-check](ovhcloud_webhosting_local-seo_visibility-check.md)	 - Launch a Local SEO visibility check
+* [ovhcloud webhosting local-seo visibility-result](ovhcloud_webhosting_local-seo_visibility-result.md)	 - Display the result of a visibility check

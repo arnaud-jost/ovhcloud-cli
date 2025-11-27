@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cdn domain option delete
 
-Retrieve information of a specific WebHosting
+Delete a CDN domain option
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cdn domain option delete <service_name> <domain> <option> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for delete
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cdn domain option](ovhcloud_webhosting_cdn_domain_option.md)	 - Manage CDN domain options

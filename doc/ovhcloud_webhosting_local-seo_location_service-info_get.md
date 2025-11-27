@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo location service-info get
 
-Retrieve information of a specific WebHosting
+Get Local SEO location service info
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo location service-info get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo location service-info](ovhcloud_webhosting_local-seo_location_service-info.md)	 - Manage Local SEO location service info

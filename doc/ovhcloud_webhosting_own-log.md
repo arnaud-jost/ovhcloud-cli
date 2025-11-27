@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting own-log
 
-Retrieve information of a specific WebHosting
+Manage own logs
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting own-log [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for own-log
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,6 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting own-log get](ovhcloud_webhosting_own-log_get.md)	 - Get an own log entry
+* [ovhcloud webhosting own-log list](ovhcloud_webhosting_own-log_list.md)	 - List own logs
+* [ovhcloud webhosting own-log user](ovhcloud_webhosting_own-log_user.md)	 - Manage own log users

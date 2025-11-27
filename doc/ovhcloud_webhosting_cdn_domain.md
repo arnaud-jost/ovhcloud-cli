@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cdn domain
 
-Retrieve information of a specific WebHosting
+Manage CDN domains
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cdn domain [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for domain
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,10 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cdn](ovhcloud_webhosting_cdn.md)	 - Manage CDN
+* [ovhcloud webhosting cdn domain get](ovhcloud_webhosting_cdn_domain_get.md)	 - Get a CDN domain
+* [ovhcloud webhosting cdn domain list](ovhcloud_webhosting_cdn_domain_list.md)	 - List CDN domains
+* [ovhcloud webhosting cdn domain option](ovhcloud_webhosting_cdn_domain_option.md)	 - Manage CDN domain options
+* [ovhcloud webhosting cdn domain purge](ovhcloud_webhosting_cdn_domain_purge.md)	 - Purge CDN domain cache
+* [ovhcloud webhosting cdn domain refresh](ovhcloud_webhosting_cdn_domain_refresh.md)	 - Refresh CDN domain
+* [ovhcloud webhosting cdn domain statistics](ovhcloud_webhosting_cdn_domain_statistics.md)	 - Get CDN domain statistics

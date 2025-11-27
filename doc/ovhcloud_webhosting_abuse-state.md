@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting abuse-state
 
-Retrieve information of a specific WebHosting
+Get abuse state
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting abuse-state <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for abuse-state
 ```
 
 ### Options inherited from parent commands

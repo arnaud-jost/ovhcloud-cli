@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo location terminate
 
-Retrieve information of a specific WebHosting
+Terminate a Local SEO location
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo location terminate <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for terminate
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo location](ovhcloud_webhosting_local-seo_location.md)	 - Manage Local SEO locations

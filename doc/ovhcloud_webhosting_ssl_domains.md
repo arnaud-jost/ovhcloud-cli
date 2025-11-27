@@ -1,15 +1,22 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ssl domains
 
-Retrieve information of a specific WebHosting
+List SSL domains
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ssl domains <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --filter stringArray   Filter results by any property using https://github.com/PaesslerAG/gval syntax
+                             Examples:
+                               --filter 'state="running"'
+                               --filter 'name=~"^my.*"'
+                               --filter 'nested.property.subproperty>10'
+                               --filter 'startDate>="2023-12-01"'
+                               --filter 'name=~"something" && nbField>10'
+  -h, --help                 help for domains
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +39,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ssl](ovhcloud_webhosting_ssl.md)	 - Manage SSL

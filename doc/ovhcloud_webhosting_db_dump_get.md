@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db dump get
 
-Retrieve information of a specific WebHosting
+Get a database dump
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db dump get <service_name> <name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db dump](ovhcloud_webhosting_db_dump.md)	 - Manage database dumps

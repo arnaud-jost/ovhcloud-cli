@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting email-option get
 
-Retrieve information of a specific WebHosting
+Get an email option
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting email-option get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting email-option](ovhcloud_webhosting_email-option.md)	 - Manage email options

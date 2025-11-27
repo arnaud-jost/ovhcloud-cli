@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting own-log user get
 
-Retrieve information of a specific WebHosting
+Get an own log user
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting own-log user get <service_name> <ownlog_id> <login> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting own-log user](ovhcloud_webhosting_own-log_user.md)	 - Manage own log users

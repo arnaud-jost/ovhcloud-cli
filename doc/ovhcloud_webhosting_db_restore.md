@@ -1,15 +1,19 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db restore
 
-Retrieve information of a specific WebHosting
+Restore database from snapshot date
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db restore <service_name> <name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --date string        Dump type to restore (allowed: daily.1, now, weekly.1)
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for restore
+      --send-email         Send email when restore completes
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +36,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db](ovhcloud_webhosting_db.md)	 - Manage databases

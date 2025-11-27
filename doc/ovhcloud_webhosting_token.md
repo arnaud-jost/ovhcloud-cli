@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting token
 
-Retrieve information of a specific WebHosting
+Use to link an external domain. This token must be added to a TXT record on your DNS zone using the ovhcontrol subdomain.
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting token <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for token
 ```
 
 ### Options inherited from parent commands

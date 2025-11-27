@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting tasks get
 
-Retrieve information of a specific WebHosting
+Get a task
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting tasks get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting tasks](ovhcloud_webhosting_tasks.md)	 - Manage tasks

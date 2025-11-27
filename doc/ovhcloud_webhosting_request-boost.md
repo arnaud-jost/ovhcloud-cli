@@ -1,15 +1,18 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting request-boost
 
-Retrieve information of a specific WebHosting
+Request a boost offer
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting request-boost <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for request-boost
+      --offer string       Boost offer (allowed: KS, PERFORMANCE_1, PERFORMANCE_2, PERFORMANCE_3, PERFORMANCE_4, PERSO, PRO, START)
 ```
 
 ### Options inherited from parent commands

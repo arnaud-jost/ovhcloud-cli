@@ -1,15 +1,20 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting own-log user create
 
-Retrieve information of a specific WebHosting
+Create an own log user
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting own-log user create <service_name> <ownlog_id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --description string   Description for this user (required)
+      --editor               Use a text editor to define parameters
+      --from-file string     File containing parameters
+  -h, --help                 help for create
+      --login string         User login used to connect to logs.ovh.net
+      --password string      User password (required)
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +37,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting own-log user](ovhcloud_webhosting_own-log_user.md)	 - Manage own log users

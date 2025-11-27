@@ -1,15 +1,17 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting email update
 
-Retrieve information of a specific WebHosting
+Update email sending settings
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting email update <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --contact-email string   Email used to receive error notifications
+      --editor                 Use a text editor to define parameters
+  -h, --help                   help for update
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +34,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting email](ovhcloud_webhosting_email.md)	 - Manage automated emails

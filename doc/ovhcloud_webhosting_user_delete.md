@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting user delete
 
-Retrieve information of a specific WebHosting
+Delete a FTP/SSH user
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting user delete <service_name> <login> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for delete
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting user](ovhcloud_webhosting_user.md)	 - Create and manage the FTP/SSH users allowed to access your web hosting space.

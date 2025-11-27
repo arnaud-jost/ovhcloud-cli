@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ovh-config refresh
 
-Retrieve information of a specific WebHosting
+Refresh cached .ovhconfig data
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ovh-config refresh <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for refresh
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ovh-config](ovhcloud_webhosting_ovh-config.md)	 - Manage .ovhconfig settings

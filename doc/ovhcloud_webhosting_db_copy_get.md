@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db copy get
 
-Retrieve information of a specific WebHosting
+Get a database copy
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db copy get <service_name> <name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db copy](ovhcloud_webhosting_db_copy.md)	 - Manage database copies

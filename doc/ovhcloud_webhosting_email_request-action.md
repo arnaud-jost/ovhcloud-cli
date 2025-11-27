@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting email request-action
 
-Retrieve information of a specific WebHosting
+Request an email action
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting email request-action <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --action string   Action to request (allowed: BLOCK, PURGE, UNBLOCK)
+  -h, --help            help for request-action
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting email](ovhcloud_webhosting_email.md)	 - Manage automated emails

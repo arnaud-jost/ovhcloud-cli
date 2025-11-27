@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ovh-config
 
-Retrieve information of a specific WebHosting
+Manage .ovhconfig settings
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ovh-config [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for ovh-config
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,10 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ovh-config capabilities](ovhcloud_webhosting_ovh-config_capabilities.md)	 - List available versions and containers
+* [ovhcloud webhosting ovh-config change](ovhcloud_webhosting_ovh-config_change.md)	 - Change a .ovhconfig entry
+* [ovhcloud webhosting ovh-config get](ovhcloud_webhosting_ovh-config_get.md)	 - Get a .ovhconfig entry
+* [ovhcloud webhosting ovh-config list](ovhcloud_webhosting_ovh-config_list.md)	 - List .ovhconfig entries
+* [ovhcloud webhosting ovh-config recommended](ovhcloud_webhosting_ovh-config_recommended.md)	 - Show recommended values
+* [ovhcloud webhosting ovh-config refresh](ovhcloud_webhosting_ovh-config_refresh.md)	 - Refresh cached .ovhconfig data
+* [ovhcloud webhosting ovh-config rollback](ovhcloud_webhosting_ovh-config_rollback.md)	 - Rollback a .ovhconfig entry

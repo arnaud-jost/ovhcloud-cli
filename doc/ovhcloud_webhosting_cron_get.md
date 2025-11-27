@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting cron get
 
-Retrieve information of a specific WebHosting
+Get a cron task
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting cron get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting cron](ovhcloud_webhosting_cron.md)	 - Manage cron tasks

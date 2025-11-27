@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo account login
 
-Retrieve information of a specific WebHosting
+Generate an SSO link for a Local SEO account
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo account login <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for login
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo account](ovhcloud_webhosting_local-seo_account.md)	 - Manage Local SEO accounts

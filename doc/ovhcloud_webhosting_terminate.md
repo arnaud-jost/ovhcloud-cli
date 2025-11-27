@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting terminate
 
-Retrieve information of a specific WebHosting
+Terminate service
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting terminate <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for terminate
 ```
 
 ### Options inherited from parent commands

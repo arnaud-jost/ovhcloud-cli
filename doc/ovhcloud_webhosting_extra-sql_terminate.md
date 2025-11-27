@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting extra-sql terminate
 
-Retrieve information of a specific WebHosting
+Terminate an extra SQL option
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting extra-sql terminate <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for terminate
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting extra-sql](ovhcloud_webhosting_extra-sql.md)	 - Manage extra SQL options

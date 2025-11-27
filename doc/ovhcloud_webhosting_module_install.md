@@ -1,15 +1,24 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting module install
 
-Retrieve information of a specific WebHosting
+Install a module
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting module install <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --admin string            Admin login
+      --admin-password string   Admin password
+      --domain string           Domain
+      --editor                  Use a text editor to define parameters
+      --from-file string        File containing parameters
+  -h, --help                    help for install
+      --language string         Language
+      --module-id int           Module ID
+      --module-name string      Module name (latest version will be selected)
+      --path string             Install path
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +41,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting module](ovhcloud_webhosting_module.md)	 - Manage one-click modules

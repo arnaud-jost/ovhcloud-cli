@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ssl get
 
-Retrieve information of a specific WebHosting
+Get SSL info for an attached domain
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ssl get <service_name> <domain> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ssl](ovhcloud_webhosting_ssl.md)	 - Manage SSL

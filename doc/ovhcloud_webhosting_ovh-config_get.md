@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting ovh-config get
 
-Retrieve information of a specific WebHosting
+Get a .ovhconfig entry
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting ovh-config get <service_name> <id> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting ovh-config](ovhcloud_webhosting_ovh-config.md)	 - Manage .ovhconfig settings

@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting extra-sql service-info
 
-Retrieve information of a specific WebHosting
+Manage extra SQL service info
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting extra-sql service-info [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for service-info
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,6 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting extra-sql](ovhcloud_webhosting_extra-sql.md)	 - Manage extra SQL options
+* [ovhcloud webhosting extra-sql service-info get](ovhcloud_webhosting_extra-sql_service-info_get.md)	 - Get extra SQL service information
+* [ovhcloud webhosting extra-sql service-info update](ovhcloud_webhosting_extra-sql_service-info_update.md)	 - Update extra SQL service information

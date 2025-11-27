@@ -1,15 +1,17 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting own-log user update
 
-Retrieve information of a specific WebHosting
+Update an own log user
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting own-log user update <service_name> <ownlog_id> <login> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --description string   User description
+      --editor               Use a text editor to define parameters
+  -h, --help                 help for update
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +34,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting own-log user](ovhcloud_webhosting_own-log_user.md)	 - Manage own log users

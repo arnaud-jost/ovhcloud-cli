@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting module catalog
 
-Retrieve information of a specific WebHosting
+Browse available one-click modules
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting module catalog [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for catalog
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,6 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting module](ovhcloud_webhosting_module.md)	 - Manage one-click modules
+* [ovhcloud webhosting module catalog get](ovhcloud_webhosting_module_catalog_get.md)	 - Get available module details
+* [ovhcloud webhosting module catalog list](ovhcloud_webhosting_module_catalog_list.md)	 - List available modules

@@ -1,15 +1,24 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting runtime create
 
-Retrieve information of a specific WebHosting
+Create a runtime
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting runtime create <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --app-bootstrap string   Application bootstrap script
+      --app-env string         Application environment
+      --domain strings         Domains to attach
+      --editor                 Use a text editor to define parameters
+      --from-file string       File containing parameters
+  -h, --help                   help for create
+      --name string            Runtime name
+      --public-dir string      Public directory
+      --runtime-default        Set as default runtime
+      --type string            Runtime backend type
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +41,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting runtime](ovhcloud_webhosting_runtime.md)	 - Manage runtimes

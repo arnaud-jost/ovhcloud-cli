@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db copy create
 
-Retrieve information of a specific WebHosting
+Create a database copy
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db copy create <service_name> <name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for create
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db copy](ovhcloud_webhosting_db_copy.md)	 - Manage database copies

@@ -1,9 +1,9 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting env get
 
-Retrieve information of a specific WebHosting
+Get an env var
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting env get <service_name> <key> [flags]
 ```
 
 ### Options
@@ -32,4 +32,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting env](ovhcloud_webhosting_env.md)	 - Manage environment variables

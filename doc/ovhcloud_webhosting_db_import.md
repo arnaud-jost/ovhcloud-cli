@@ -1,15 +1,20 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db import
 
-Retrieve information of a specific WebHosting
+Import a database dump
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db import <service_name> <name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --document-id string   Document ID from /me/documents
+      --editor               Use a text editor to define parameters
+      --flush                Flush database before import
+      --from-file string     File containing parameters
+  -h, --help                 help for import
+      --send-email           Send email when done
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +37,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db](ovhcloud_webhosting_db.md)	 - Manage databases

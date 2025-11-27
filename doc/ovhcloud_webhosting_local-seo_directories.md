@@ -1,15 +1,17 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo directories
 
-Retrieve information of a specific WebHosting
+List directories available for a country and offer
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo directories [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --country string   Country of the Local SEO offer (see API documentation for possible values)
+  -h, --help             help for directories
+      --offer string     Local SEO offer (see API documentation for possible values)
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +34,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo](ovhcloud_webhosting_local-seo.md)	 - Manage Local SEO features

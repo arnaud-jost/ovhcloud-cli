@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting own-log user change-password
 
-Retrieve information of a specific WebHosting
+Change an own log user password
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting own-log user change-password <service_name> <ownlog_id> <login> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help              help for change-password
+      --password string   New password
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting own-log user](ovhcloud_webhosting_own-log_user.md)	 - Manage own log users

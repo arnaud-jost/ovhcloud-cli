@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting request-action
 
-Retrieve information of a specific WebHosting
+Request a hosting operation
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting request-action <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --action string   Action to request (allowed: CHECK_QUOTA, FLUSH_CACHE, SCAN_ANTIHACK)
+  -h, --help            help for request-action
 ```
 
 ### Options inherited from parent commands

@@ -1,15 +1,20 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting env create
 
-Retrieve information of a specific WebHosting
+Create an env var
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting env create <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --editor             Use a text editor to define parameters
+      --from-file string   File containing parameters
+  -h, --help               help for create
+      --key string         Variable name
+      --type string        Variable type (allowed: integer, password, string)
+      --value string       Variable value
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +37,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting env](ovhcloud_webhosting_env.md)	 - Manage environment variables

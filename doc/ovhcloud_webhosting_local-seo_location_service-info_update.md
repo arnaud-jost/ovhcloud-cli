@@ -1,15 +1,22 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo location service-info update
 
-Retrieve information of a specific WebHosting
+Update Local SEO location service info
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo location service-info update <service_name> <id> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+      --editor                       Use a text editor to define parameters
+      --from-file string             File containing parameters
+  -h, --help                         help for update
+      --renew-automatic              Enable automatic renewal
+      --renew-delete-at-expiration   Delete service at expiration
+      --renew-forced                 Force renewal
+      --renew-manual-payment         Enable manual payment for renewal
+      --renew-period int             Renewal period in months
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +39,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo location service-info](ovhcloud_webhosting_local-seo_location_service-info.md)	 - Manage Local SEO location service info

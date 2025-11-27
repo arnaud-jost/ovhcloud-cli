@@ -1,15 +1,16 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting db available-version
 
-Retrieve information of a specific WebHosting
+List available versions for a database type
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting db available-version <service_name> [flags]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help          help for available-version
+      --type string   Database type (required)
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +33,4 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting db](ovhcloud_webhosting_db.md)	 - Manage databases

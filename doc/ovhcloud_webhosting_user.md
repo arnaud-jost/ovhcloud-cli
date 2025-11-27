@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting user
 
-Retrieve information of a specific WebHosting
+Create and manage the FTP/SSH users allowed to access your web hosting space.
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting user [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for user
 ```
 
 ### Options inherited from parent commands
@@ -33,3 +33,9 @@ Retrieve information of a specific WebHosting
 ### SEE ALSO
 
 * [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting user change-password](ovhcloud_webhosting_user_change-password.md)	 - Change FTP/SSH user password
+* [ovhcloud webhosting user create](ovhcloud_webhosting_user_create.md)	 - Create a FTP/SSH user
+* [ovhcloud webhosting user delete](ovhcloud_webhosting_user_delete.md)	 - Delete a FTP/SSH user
+* [ovhcloud webhosting user get](ovhcloud_webhosting_user_get.md)	 - Get a FTP/SSH user
+* [ovhcloud webhosting user list](ovhcloud_webhosting_user_list.md)	 - List FTP/SSH users
+* [ovhcloud webhosting user update](ovhcloud_webhosting_user_update.md)	 - Update a FTP/SSH user

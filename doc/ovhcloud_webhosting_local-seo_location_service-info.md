@@ -1,15 +1,15 @@
-## ovhcloud webhosting get
+## ovhcloud webhosting local-seo location service-info
 
-Retrieve information of a specific WebHosting
+Manage Local SEO location service info
 
 ```
-  ovhcloud webhosting get <service_name> [flags]
+  ovhcloud webhosting local-seo location service-info [command]
 ```
 
 ### Options
 
 ```
-  -h, --help   help for get
+  -h, --help   help for service-info
 ```
 
 ### Options inherited from parent commands
@@ -32,4 +32,6 @@ Retrieve information of a specific WebHosting
 
 ### SEE ALSO
 
-* [ovhcloud webhosting](ovhcloud_webhosting.md)	 - Retrieve information and manage your WebHosting services
+* [ovhcloud webhosting local-seo location](ovhcloud_webhosting_local-seo_location.md)	 - Manage Local SEO locations
+* [ovhcloud webhosting local-seo location service-info get](ovhcloud_webhosting_local-seo_location_service-info_get.md)	 - Get Local SEO location service info
+* [ovhcloud webhosting local-seo location service-info update](ovhcloud_webhosting_local-seo_location_service-info_update.md)	 - Update Local SEO location service info
