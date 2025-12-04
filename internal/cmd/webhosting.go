@@ -45,7 +45,7 @@ func init() {
 		Run:   webhosting.EditWebHosting,
 	}
 	webhostingEditCmd.Flags().StringVar(&webhosting.WebHostingDisplayName, "display-name", "", "Display name of the WebHosting")
-	webhostingEditCmd.Flags().BoolVar(&webhosting.WebHostingClearDisplayName, "clear-display-name", false, "Clear the display name (set default value)")
+	webhostingEditCmd.Flags().BoolVar(&webhosting.WebHostingClearDisplayName, "clear-display-name", false, "Clear the display name (reset to service name)")
 	addInteractiveEditorFlag(webhostingEditCmd)
 	webhostingCmd.AddCommand(webhostingEditCmd)
 

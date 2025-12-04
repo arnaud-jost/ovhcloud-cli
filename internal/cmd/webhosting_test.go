@@ -36,6 +36,19 @@ func (ms *MockSuite) TestWebhostingDomainAddCmd(assert, require *td.T) {
 	assert.String(out, "✅ Domain attached")
 }
 
+func (ms *MockSuite) TestWebhostingEditClearDisplayName(assert, require *td.T) {
+	httpmock.RegisterMatcherResponder(http.MethodPut,
+		"https://eu.api.ovh.com/1.0/hosting/web/myservice",
+		tdhttpmock.JSONBody(td.JSON(`{"displayName":""}`)),
+		httpmock.NewStringResponder(200, `{}`),
+	)
+
+	out, err := cmd.Execute("webhosting", "edit", "myservice", "--clear-display-name")
+
+	require.CmpNoError(err)
+	assert.String(out, "✅ Resource updated successfully")
+}
+
 func (ms *MockSuite) TestWebhostingDomainDigStatusCmd(assert, require *td.T) {
 	httpmock.RegisterResponder(http.MethodGet,
 		"https://eu.api.ovh.com/1.0/hosting/web/myservice/attachedDomain/example.com/digStatus",

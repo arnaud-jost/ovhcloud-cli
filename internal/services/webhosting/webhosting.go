@@ -335,13 +335,13 @@ func EditWebHosting(cmd *cobra.Command, args []string) {
 
 	switch {
 	case WebHostingClearDisplayName:
-		params["displayName"] = nil
+		params["displayName"] = ""
 	case cmd.Flags().Changed("display-name"):
 		params["displayName"] = WebHostingDisplayName
 	}
 
 	endpoint := fmt.Sprintf("/hosting/web/%s", url.PathEscape(args[0]))
-	if err := updateResource(cmd, "/hosting/web/{serviceName}", endpoint, params, map[string]bool{"displayName": WebHostingClearDisplayName}); err != nil {
+	if err := updateResource(cmd, "/hosting/web/{serviceName}", endpoint, params, nil); err != nil {
 		if errors.Is(err, errNothingToEdit) {
 			display.OutputInfo(&flags.OutputFormatConfig, nil, "🟠 No parameters given, nothing to edit")
 			return
